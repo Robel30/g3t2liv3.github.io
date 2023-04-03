@@ -1,0 +1,356 @@
+h1 {
+    font-size: 4rem;
+    padding-top: 100px;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+    body {
+        margin: 0;
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+        background: #202731;
+        overflow-x: hidden;
+    }
+    section {
+        position:relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        min-height: 400px;
+        padding-top: 10px;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+        text-align: center;
+      }
+    a {
+        font-size: 20px;
+        color: #7d2727;
+    }
+    .blue {
+        background-color: rgb(16, 16, 105);
+        color: rgb(254, 254, 255);
+    }
+    .darkwhite {
+        background-color: rgba(219, 201, 201, 0.999);
+        color: rgb(249, 249, 251);
+    }
+    .red {
+        background-color: rgba(105, 56, 56, 0.999);
+        color: rgb(11, 11, 11);
+    }
+    .black {
+        background-color: rgb(0, 0, 0);
+        color: rgb(16, 16, 16);
+    }
+    .custom-shape-divider-top-1680317471 {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+}
+
+.custom-shape-divider-top-1680317471 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 112px;
+}
+
+.custom-shape-divider-top-1680317471 .shape-fill {
+    fill: #001220;
+}
+.custom-shape-divider-top-1680318103 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.block{
+    aspect-ratio:900/600 ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.background1{
+    background-image: url(circle-scatter-haikei.svg);
+}
+
+
+.spacer {
+    aspect-ratio: 900/200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.projectsAbout {
+    background-image: url(layered-peaks.svg);
+}
+
+.image-container {
+text-align: center;
+background-color: #cccccc;
+padding: 10px;
+}
+
+.image-container img {
+border: 9px solid #fff;
+}
+.homePage {
+    aspect-ratio: 900/500;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px; /* or whatever amount of space you want */
+    
+}
+.layer {
+    background-image: url('blockBackground.svg');
+}
+.MenuBar {
+    aspect-ratio: 900/20;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.MenuBack {
+    background-image: url('menu.svg');
+}
+
+header {
+position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+color: #fff;
+padding: 20px 30px;
+}
+
+/*--------------------------------------------------- Navigation bar */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    left: 35px;
+    }
+  }
+
+  
+/*---------------------------------------------------------------- Navigation bar */
+
+.custom-shape-divider-top-1680323367 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1680323367 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1680323367 .shape-fill {
+    fill: #1EAE1E;
+}
+
+body {
+    background-image: url(file:///D:/Projects/WebSite/html&CSS/CyberSecurityWebSite/lines.jpg);
+    background-repeat: round;
+    background-position: left;
+    animation-name: scroll;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    aspect-ratio:900/600
+  }
+  
+  @keyframes scroll {
+    from {background-position: center left;}
+    to {background-position: center right;}
+  }
+
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-container input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  button[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+    padding: 10px 20px;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .w3-section {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: inline-block;
+    width: 100px;
+    font-size: 16px;
+  }
+
+  input[type="text"], textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  p {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p2 {
+    font-size: 5px;
+  }
+
+
+  .w3-xlarge {
+    font-size: 32px;
+  }
+
+
+  form {
+    background-color: #131212;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px rgba(163, 237, 4, 0.1);
+  }
+
+/* this show case my projects and thing I have been working with */
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 5px;
+  justify-items: center;
+  align-items: center;
+  margin: 20px;
+}
+  
+  .project-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .project-link:hover {
+    background-color: #1eae1e;
+    color: #fff;
+  }
+  
+  .fa-github {
+    font-size: 5em;
+    color: #333;
+  }
